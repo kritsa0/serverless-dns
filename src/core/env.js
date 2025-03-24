@@ -127,7 +127,7 @@ const defaults = new Map(
     MAX_DNS_RESOLVER_URL: {
       type: "string",
       // must always end with a trailing slash
-      default: "https://dns.quad9.net/dns-query",
+      default: "https://dns.quad9.net/dns-query/",
     },
     // max doh request processing timeout some requests may have to wait
     // for blocklists to download before being responded to.
